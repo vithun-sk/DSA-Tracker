@@ -179,7 +179,7 @@ const resetAll = () => {
 
       {/* Title bar */}
       <div style={{ background: "#217346", color: "#fff", padding: "8px 14px", borderRadius: "4px 4px 0 0", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-        <span style={{ fontWeight: 700, fontSize: 14 }}>📊 DSA_Roadmap_30Days.xlsx</span>
+        <span style={{ fontWeight: 700, fontSize: 14 }}>📊 DSA Roadmap 30Days</span>
         <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
           {saveStatus && <span style={{ fontSize: 11, opacity: 0.9, background: "rgba(255,255,255,0.2)", padding: "2px 8px", borderRadius: 3 }}>{saveStatus}</span>}
           <span style={{ fontSize: 12, opacity: 0.85 }}>{doneCount}/{total} solved ({pct}%)</span>
